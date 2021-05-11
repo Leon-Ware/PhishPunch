@@ -6,13 +6,13 @@ This repository contains the source code used in the PhishPunch dissertation.
 
 
 ## Requirements
-PyTorch (PyTorch 1.7.1)
-dnslib (Dnslib 0.9.14)
-requests (Requests 2.25.1)
-validators(Validators0.11.2)
-ipaddress (IPAddress)
-mitmproxy(MITMProxy6.0.2) - Note: install MITM Proxy application
-TLD (TLD 0.12.5)
+- PyTorch (PyTorch 1.7.1)
+- dnslib (Dnslib 0.9.14)
+- requests (Requests 2.25.1)
+- validators(Validators0.11.2)
+- ipaddress (IPAddress)
+- mitmproxy(MITMProxy6.0.2) - Note: install MITM Proxy application
+- TLD (TLD 0.12.5)
 
 ## Setup
 Create following directories:
