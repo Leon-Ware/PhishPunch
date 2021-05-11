@@ -1,0 +1,23 @@
+# Data sources
+
+# Downloaded files will be placed in 'data' folder
+
+# Separate data with spaces - no spaces in filenames!
+# Also reference the column for the data - 0 represents first column in CSV
+# URL, filename, malicious/benign, data column
+
+
+http://data.phishtank.com/data/online-valid.csv phishtank.csv malicious 1
+
+https://urlhaus.abuse.ch/downloads/csv/ urlhaus.csv.zip malicious 2
+# urlhaus.csv malicious 2
+
+https://data.netlab.360.com/feeds/dga/dga.txt netlab360_dga.txt malicious 1
+
+http://s3.amazonaws.com/alexa-static/top-1m.csv.zip alexa_top_1m.csv.zip benign 1
+# alexa_top-1m.csv benign 1
+
+# Temporary benign samples from crawler database, not downloadable
+# crawler_urls.txt benign 0
+
+ dmoz_urls_short.txt benign 0
